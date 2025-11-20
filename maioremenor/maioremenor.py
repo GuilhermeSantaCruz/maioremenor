@@ -1,8 +1,8 @@
 numeros = []
-for c in range(0, 5):
-    n = int(input(f"Digite o {c+1}º valor: "))
+for c in range(1, 6):
+    n = int(input(f"Digite o {c}º valor: "))
     numeros.append(n)
-    if c == 0:
+    if c == 1:
         menor = maior = n
     else:
         if n < menor:
@@ -12,5 +12,6 @@ for c in range(0, 5):
 print(f"A lista completa: {numeros} ")
 print(f"O MENOR número da lista: {menor} ")
 print(f"O MAIOR número da lista: {maior} ")
+
 
 
