@@ -1,4 +1,4 @@
 # maioremenor
-Maior e menor número em uma lista
+Maior e menor número em uma lista.
 
-Praticas no github para aprender!
+Praticas no github!
